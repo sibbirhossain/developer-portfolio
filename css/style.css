@@ -59,3 +59,19 @@ section div p{
     width:50%;
     padding-left: 7%;
 }
+
+.experience{
+    background-image: url(../images/exp-bg.png);
+    background-position: left;
+    background-repeat: no-repeat;
+}
+.card-half-width{
+    width: 50%;
+    border: 2px solid gray;
+    padding: 3px;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+.third-flex{
+    display: flex;
+}
