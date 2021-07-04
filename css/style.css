@@ -1,10 +1,10 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    text-align: justify;
+    
 }
 h1{
-    font-size: 50px;
+    font-size: 40px;
 }
 .name-color{
     color:orange;
@@ -26,4 +26,36 @@ h1{
 }
 .first-image{
     width:80%;
+    margin-top: 15px;
+}
+.hire-btn{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 7px 35px;
+    background-image: linear-gradient(lightsalmon, tomato);
+    border-radius: 5px;
+}
+section div p{
+    color: gray;
+}
+.second-flex{
+    display: flex;
+    background-image: url(../images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position:right;
+}
+.second-image{
+    width: 90%;
+}
+.dream-half-width{
+    width:50%;
+    margin-right: 120px;
+}
+.bottom-margin{
+    margin-bottom: 150px;
+}
+.dream-img-width{
+    width:50%;
+    padding-left: 7%;
 }
