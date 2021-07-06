@@ -64,14 +64,33 @@ section div p{
     background-image: url(../images/exp-bg.png);
     background-position: left;
     background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+#experiences{
+    padding-left: 40px;
 }
 .card-half-width{
     width: 50%;
-    border: 2px solid gray;
-    padding: 3px;
+    box-shadow: 10px 10px 40px gray;
+    padding: 0px 10px 40px 15px;
     margin-left: 40px;
     margin-right: 40px;
+    margin-bottom: 70px;
 }
 .third-flex{
     display: flex;
+}
+.experience-box1{
+    border-left: 10px solid;
+    border-image: linear-gradient(lightsalmon,tomato);
+    border-image-slice: 1;
+}
+.experience-box2 {
+    border-left: 10px solid;
+    border-image: linear-gradient(blue,cyan);
+    border-image-slice: 1;
+}
+#footer-p{
+    text-align: center;
+    color: gray;
 }
